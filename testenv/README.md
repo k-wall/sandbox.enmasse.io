@@ -58,7 +58,8 @@ sudo sh -c "echo '${IP} enmasse.devlocal' >> /etc/hosts"
 
 ## Setup GitHub identity provider
 
-Go to the Keycloak admin UI and create a GitHub identity provider for the k8s realm using client id and secrets from GitHub.
+* Go to the Keycloak admin UI and create a GitHub identity provider for the k8s realm using client id and secrets from GitHub.
+* Turn "Trust Email" On 
 
 ## Configure Authentication flow
 
